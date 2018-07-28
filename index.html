@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery.js" type="text/javascript"></script>
     <link href="https://fonts.googleapis.com/css?family=Exo|Mate|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Welcome | Vlad Trebukhov</title>
+    <title>★ Welcome | Vlad Trebukhov</title>
 </head>
 <body>
     <!--Navigation Container-->
@@ -41,43 +42,90 @@
                 
         </section>
         </div>
-        <section class="projects section">
-            <h2 id="featured">Featured Work</h2>
-            <div class="work-row">
-                <div>
-                    <a href="">Project A</a>
-                    <h4 class="title">Title</h4>
-                    <p class="description text">Description</p>
-                </div>
+
+        <!--Projects Container-->
+        <div class="projects-container">
+            <div class="wrapper">
+            <section class="section ">
+                <h2 id="featured">Featured Work</h2>
+                <div class="work-row">
+                        <a href="#"> 
+                            <video width="235" height="400" class="video" playsinline loop>
+                                <source src="./video/flappybird.mp4" type="video/mp4">
+                            </video>
+                        </a>
+                   
+                    <div class"project-info">
+                        <h4 class="title">Flappy Bird</h4>
+                        <p class="description text">My take on the 2013 classic side-scroller mobile game <br>
+                            using HTML canvas and vanilla JavaScript</p>
+                    </div>
+               </div>
+               
             </div>
-            <div class="work-row">
-                <div>
-                    <a href="">Project B</a>
-                    <h4 class="title">Title</h4>
-                    <p class="description text">Description</p>
-                </div>
+            <div class="wrapper">
+                <section class="section ">
+                    <div class="work-row">
+                        <a href="#">
+                            <video width="475" height="400" class="video" playsinline loop>
+                                <source src="./video/battleship.mp4" type="video/mp4">
+                            </video>
+                        </a>
+
+                        <div class "project-info">
+                            <h4 class="title">Battleship</h4>
+                            <p class="description text">Three ships are randomly placed by the computer... <br>
+                                how many tries will it take you to sink all the ships!? Built with HTML, CSS, vanilla JavaScript.
+                            </p>
+                        </div>
+                    </div>
+
             </div>
-            <div class="work-row">
-                <div>
-                    <a href="">Project C</a>
-                    <h4 class="title">Title</h4>
-                    <p class="description text">Description</p>
-                </div>
-            </div>
-            <div class="work-row">
-                <div>
-                    <a href="">Project D</a>
-                    <h4 class="title">Title</h4>
-                    <p class="description text">Description</p>
+                <div class="wrapper">
+                    <section class="section ">
+                        <div class="work-row">
+                            <a href="#">
+                                <video width="680" height="380" class="video" playsinline loop>
+                                    <source src="./video/matchinggame.mp4" type="video/mp4">
+                                </video>
+                            </a>
+
+                            <div class "project-info">
+                                <h4 class="title">Memory Matching Game</h4>
+                                <p class="description text"> Matching card game to test the players memory. In a deck of paired cards <br>
+                                    the player needs to match each pair to win the game. Built with HTML, CSS, vanilla JavaScript.
+                                </p>
+                            </div>
+                        </div>
 
                 </div>
-            </div>
+                <div class="wrapper">
+                    <section class="section ">
+                        <div class="work-row">
+                            <a href="#">
+                                <video width="575" height="400" class="video" playsinline loop>
+                                    <source src="./video/pong.mp4" type="video/mp4">
+                                </video>
+                            </a>
+
+                            <div class "project-info">
+                                <h4 class="title">Pong</h4>
+                                <p class="description text"> Re-creation of the 1972 Atari game. The player and computer each control a paddle. <br>
+                                    Utilized HTML canvas and vanilla JavaScript.
+                                </p>
+                            </div>
+                        </div>
+
+</div>
+        </div>
+   
+   
+   
+   
+    </div>
 
 
 
-        </section>
-   </div>
-
-
+    <script src="script.js"></script>
 </body>
 </html>

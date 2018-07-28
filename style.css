@@ -95,10 +95,11 @@ header {
     background-color: #1c202f;
     box-shadow: 1px 1px 10px 1px #000;
     color: white;
+    text-align: center;
 }
 
-#heading, #featured {
 
+#heading, #featured {
     font-family: "Exo",sans-serif;
     font-weight: 800;
     color: #E8BB7E;
@@ -108,7 +109,16 @@ header {
     text-align: center;
 }
 
-.work-row {
-    text-align: center;
+
+.title {
+    color: #E8BB7E;
+    font-family: "Roboto", sans-serif;
+    
 }
 
+video {
+    border-radius: 2%;
+}
+
+.project-info {
+}
