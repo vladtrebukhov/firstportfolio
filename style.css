@@ -16,12 +16,12 @@ body {
 
 .text {
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: 17px;
 }
 .header-title {
     font-weight: bolder;
     color: #ffffff;
-    font-family: "Exo", serif;
+    font-family: 'Mate', serif;
     font-size: 20pt;
     text-shadow: 3px 3px #000;
     text-transform: uppercase;
@@ -32,6 +32,7 @@ body {
 .name {
     color: #DCB47E;
     font-size: 80px;
+    font-weight: 800;
     width: auto;
     text-decoration: none;
     text-transform: uppercase;
@@ -92,6 +93,17 @@ header{
     margin-bottom: 10px;
 }
 
+.title a {
+    text-decoration: none;
+    color:#DCB47E;
+    font-family: 'Roboto', serif;
+}
+
+.title a:hover {
+    text-decoration: none;
+    color:var(--border-color);
+    font-family: 'Roboto', serif;
+}
 
 .main-container {
     background-color: rgb(22, 27, 41);
@@ -120,7 +132,7 @@ header{
 
 
 .heading, #featured {
-    font-family: "Roboto",sans-serif;
+    font-family: "Exo",sans-serif;
     font-weight: 800;
     color: var(--cream);
     border-bottom: 2px solid var(--border-color);
@@ -153,7 +165,7 @@ video {
 #main-form {
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-gap: 30px;
+    grid-gap: 20px;
 
 }
 
@@ -166,7 +178,7 @@ label, textarea {
 
 textarea {
     border-radius: 5px;
-    height: 100px;
+    height: 70px;
     width: 95%;
     font-size: 15px;
 }
@@ -189,6 +201,7 @@ input {
     cursor: pointer;
     font-size: 15px;  
     width: 96%;
+    padding-bottom: 22px;
 }
 
 
@@ -200,7 +213,6 @@ input {
     border-top: 2px solid #2d3046;
     text-align: center;
 }
-
 
 @media only screen and (max-width: 475px) {
     video {

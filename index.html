@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="jquery.js" type="text/javascript"></script>
-    <link href="https://fonts.googleapis.com/css?family=Exo|Mate|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo|Mate|Roboto" media="all">
     <link rel="stylesheet" href="style.css">
     <title>★ Welcome | Vlad Trebukhov</title>
 </head>
@@ -41,7 +41,6 @@
                 
         </section>
         </div>
-
         <!--Projects Container-->
         <div class="projects-container">
             <div class="wrapper">
@@ -55,7 +54,7 @@
                         </a>
                    
                     <div class"project-info">
-                        <h4 class="title">Flappy Bird</h4>
+                        <h4 class="title"><a href="https://github.com/vladtrebukhov/flappybird">Flappy Bird</a></h4>
                         <p class="description text">My take on the 2013 classic side-scroller mobile game <br>
                             using HTML canvas and vanilla JavaScript</p>
                     </div>
@@ -72,7 +71,7 @@
                         </a>
 
                         <div class "project-info">
-                            <h4 class="title">Battleship</h4>
+                            <h4 class="title"><a href="https://github.com/vladtrebukhov/interactivebattleship">Battleship</a></h4>
                             <p class="description text">Three ships are randomly placed by the computer... <br>
                                 how many tries will it take you to sink all the ships!? Built with HTML, CSS, vanilla JavaScript.
                             </p>
@@ -90,7 +89,7 @@
                             </a>
 
                             <div class "project-info">
-                                <h4 class="title">Memory Matching Game</h4>
+                                <h4 class="title"><a href="https://github.com/vladtrebukhov/matchingmemorygame">Memory Matching Game</a></h4>
                                 <p class="description text"> Matching card game to test the players memory. In a deck of paired cards <br>
                                     the player needs to match each pair to win the game. Built with HTML, CSS, vanilla JavaScript.
                                 </p>
@@ -108,7 +107,7 @@
                             </a>
 
                             <div class "project-info">
-                                <h4 class="title">Pong</h4>
+                                <h4 class="title"><a href="https://github.com/vladtrebukhov/ponggame">Pong</a></h4>
                                 <p class="description text"> Re-creation of the 1972 Atari game. The player and computer each control a paddle. <br>
                                     Utilized HTML canvas and vanilla JavaScript.
                                 </p>
@@ -117,50 +116,39 @@
 
                 </div>
         </div>
+        <!--Form Container-->
         <div class="form-container">
             <div class="wrapper">
                 <section class="section">
                     <h2 class="heading">Get in Touch</h2>
-                        <p class="text">Are you interested in collaborating on a project or just have a general question?
+                        <p class="text description small">Are you interested in collaborating on a project or just have a general question?
                             If so, please get in touch using the contact form below. If you're having problems with the form you can 
                            <a class="link" href="mailto:vladtrebukhov123@gmail.com">email me directly</a>.
                         </p>
-                <form id="main-form" role="form" method="POST" class="row">
+                <form id="main-form" role="form" method="POST" class="row" action="https://formspree.io/vladtrebukhov123@gmail.com">
+                    <label class="label">Name</label>
+                    <input name="name" type="text" placeholder="Name">
 
-                    <label for="name" class="label">Name</label>
-                    <input id="name" type="text" placeholder="Name">
+                    <label class="label">Email</label>
+                    <input name="_replyto" type="email" placeholder="example@example.com">
 
-                    <label for="email" class="label">Email</label>
-                    <input id="email" type="email" placeholder="example@example.com">
-
-                    <label for="message" class="label">Message</label>
-                    <textarea id="message" type="Message"></textarea>
+                    <label class="label">Message</label>
+                    <textarea name="message" type="Message"></textarea>
                     <div></div>
-                    <button id="send-button">Send</button>
+                    <input type="submit" id="send-button" value="Send"></input>
                 </form>
                 </section>
             </div>
         </div>
+        <!--Footer Container-->
         <div class="footer-container">
             <footer id="footer">
-            <h3 class="text">© Vlad Trebukhov</h3>
-                <p class="text">All work expressed is solely my own</p><p>
+            <h3 class="text description">© Vlad Trebukhov</h3>
+            <p class="text description">All work expressed is solely my own</p><p>
             <a id="return" href="">Return to top</a></p>
             </footer>
-
-
-
-
-
         </div>
-   
-   
-   
-   
     </div>
-
-
-
     <script src="script.js"></script>
 </body>
 </html>
