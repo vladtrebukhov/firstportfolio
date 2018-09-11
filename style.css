@@ -203,6 +203,18 @@ input {
     width: 96%;
     padding-bottom: 22px;
 }
+#send-button:hover{
+    background-color: #222147;
+    border: 1px solid var(--border-color);
+    box-shadow: 1px 1px 5px 1px #000;
+    border-radius: 5px;
+    color: #ececec;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 15px;
+    width: 96%;
+    padding-bottom: 22px;
+}
 
 
 .footer-container {
