@@ -9,6 +9,12 @@ $(document).ready(function () {
     });
 });
 
+// scroll top top
+$("a[href='#main']").click(function () {
+  $('html, body').animate({ scrollTop: 0 }, 'slow');
+  return false;
+});
+
 // send form information using an AJAX request to formspree (which redirects to personal email)
 var form = document.getElementById('main-form');
 
